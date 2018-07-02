@@ -1,0 +1,35 @@
+<library   file="*.cc" name="SMPJNTuplizerPlugins">
+<use   name="root"/> 
+<use   name="rootrflx"/>
+<use   name="rootcore"/>
+<use   name="roottmva"/>
+<use   name="rootmath"/>
+<use   name="RecoMET/METAlgorithms"/>
+<use   name="JetMETCorrections/Algorithms"/>
+<use   name="JetMETCorrections/Modules"/>
+<use   name="RecoJets/JetAlgorithms"/>
+<use   name="SimDataFormats/GeneratorProducts"/>
+<use   name="DataFormats/JetReco"/>
+<use   name="DataFormats/VertexReco"/>
+<use   name="DataFormats/Candidate"/>
+<use   name="DataFormats/PatCandidates"/>
+<use   name="DataFormats/Common"/>
+<use   name="DataFormats/HepMCCandidate"/>
+<use   name="DataFormats/TrackCandidate"/>
+<use   name="DataFormats/HLTReco"/>
+<use   name="PhysicsTools/UtilAlgos"/>
+<use   name="PhysicsTools/KinFitter"/>
+<use   name="JetMETCorrections/Objects"/>
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/PluginManager"/>
+<use   name="FWCore/ServiceRegistry"/>
+<use   name="clhep"/>
+<use   name="HLTrigger/HLTcore"/>
+<use   name="L1Trigger/GlobalTriggerAnalyzer"/>
+<use   name="CondFormats/L1TObjects"/>
+<use   name="CondFormats/DataRecord"/>
+<use   name="CondFormats/JetMETObjects"/>
+<use   name="fastjet"/>
+<use   name="lhapdf"/>
+<flags CXXFLAGS="-g -O0 -DDEBUG -Wall" EDM_PLUGIN="1"/>
+</library>

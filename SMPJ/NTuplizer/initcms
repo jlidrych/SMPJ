@@ -1,0 +1,4 @@
+. /etc/profile.d/modules.sh
+module use -a /afs/desy.de/group/cms/modulefiles/
+module load cmssw
+cmsenv
